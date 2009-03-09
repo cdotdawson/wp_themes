@@ -1,0 +1,200 @@
+/*
+Theme Name: Brownish
+Theme URI: http://www.atlguy.com
+Description: My First Wordpress Theme
+Version: 0.9
+Author: Curtis Dawson
+Author URI: http://www.cdawson.com
+Tags: brown, custom header
+
+	Brownish v0.9
+	http://www.atlguy.com/brownish/
+
+	This theme was designed and built by Curtis Dawson,
+	whose blog you will find at http://www.cdawson.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+/* color scheme */
+/*
+base:		322f1e
+highlight: 	d7d8dc
+
+*/
+/* reset */
+html, body, div, h1, h2, h3, h4, h5, h6, ol, dl, dt, dd, p, 
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }  
+
+/* basic elements and typography*/
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background-color: #322f1e;
+ color: #ccbd7c;
+ line-height: 19px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul#menu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+ul#menu a, a:visited, a.active {
+		text-decoration: none;
+	}
+	ul#menu a { color: #ccbd7c; }
+	ul#menu a:hover { color: #322f1e; }
+	.current_page_item  a { color: #322f1e; }
+
+#logo small {
+	color: #816f27;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+a, #content a {
+	color: #d7d8dc;
+	text-decoration: none;
+}
+
+a:hover, #content a:hover { text-decoration: underline; }
+
+#content h2 {
+	margin:0px 0px 10px 0px;
+	font-size:24px;
+	font-family:Helvetica, Arial, Sans-serif;
+}
+
+#footer .container a {
+	color: #d7d8dc;
+}
+
+.error-message {
+	color: #322f1e;
+}
+
+/* structure */
+#main {
+	background: #ccbd7c url(images/large-background-slice.jpg) repeat-x;
+}
+	#main .container {
+		background-image: url(images/large-background1.jpg);
+		background-repeat: no-repeat;
+		min-height: 950px;
+	}
+#header {
+	height: 150px;
+	padding-top: 70px;
+}
+
+#logo {
+	background: transparent;
+	background-image: url(images/gwright_logo.png);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 100px;
+}
+
+#logo h1 {
+	margin-bottom: 75px;
+	display: block;
+	text-indent: -9999px;
+}
+
+ul#menu{
+	margin: 0; 
+	padding: 0;
+	position: absolute;
+	top: 85px;
+	right: 0px;
+}
+
+.container { 
+	margin: 0 auto;
+	width: 950px;
+	position: relative;
+}
+
+#content {
+	float: left;
+	min-height: 300px;
+}
+
+#ad-content {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	min-height: 300px;
+	width: 330px;
+}
+
+.ad-block {
+	background: #ffffff url(images/ad-block.jpg) no-repeat;
+	border: 2px solid white;
+	display: inline-block;
+	height: 125px;
+	margin: 2px;
+	width: 125px;
+}
+
+/* header */
+
+#header ul li{
+	display: inline;
+}
+
+ul#menu li {
+	margin-left: 12px;
+}
+
+#logo small {
+}
+
+
+
+/* content */
+#content {
+	height: 200px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.block {
+	border: 1px solid #322f1e; /*#a3a90e;*/
+	background-color: #4b4217;
+	margin-bottom: 20px;
+}
+
+.block-inside {
+	display: block;
+	border: 1px solid #4b4217;
+	background: #4b4217 url(images/block-inside-gradient-slice.jpg) repeat-x;
+	padding: 25px;
+	overflow: auto;
+}
+
+/* footer */
+#footer {
+	background-image: url(images/footer-background.jpg);
+	background-repeat: repeat-x;
+	height: 75px;
+	padding: 40px;
+}
+	#footer a, a:visited, a:active, a:hover {
+		color: #D6D4A2;
+	}
+
+#footer .footer-text {
+	float: left;
+	margin-right: 30px;
+}
